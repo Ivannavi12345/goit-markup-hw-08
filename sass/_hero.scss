@@ -1,0 +1,45 @@
+.hero {
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/images/Header\ imgtellefon.jpg);
+
+    @media screen and (min-width: 768px){
+        background-image: url(/images/Imgdesktop3.jpg);
+    }
+
+    @media screen and (min-width: 1999.9px){
+        background-image: url(/images/Imgdesktop3.jpg);
+    }
+  }
+
+  
+  .hero__title {
+    text-align: center;
+    margin-top: 118px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: var(--primary-bg-color);
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 1.6;
+    @media screen and (min-width: 768px){
+        font-size: 26px;
+        line-height: 1.6;  
+    }
+
+    @media screen and (min-width: 1200px){
+    font-size: 44px;
+    line-height: 1.36;
+    }
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding: 0;
+  }
+  
